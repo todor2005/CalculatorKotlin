@@ -20,6 +20,7 @@ class MainActivity : AppCompatActivity() {
 
         val data = lastCustomNonConfigurationInstance;
 
+        //some comment
 
         if (lastCustomNonConfigurationInstance != null) {
             val data = lastCustomNonConfigurationInstance.toString()
