@@ -13,15 +13,10 @@ import kotlinx.android.synthetic.main.activity_main.*
 class MainActivity : AppCompatActivity() {
 
     private var isRavnoPressed = false
-    private val ss = 10
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-
-        val data = lastCustomNonConfigurationInstance;
-
-        //some comment
 
         if (lastCustomNonConfigurationInstance != null) {
             val data = lastCustomNonConfigurationInstance.toString()
