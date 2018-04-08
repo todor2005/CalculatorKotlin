@@ -12,6 +12,8 @@ import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
 
+    //comment
+
     private var isRavnoPressed = false
 
     override fun onCreate(savedInstanceState: Bundle?) {
