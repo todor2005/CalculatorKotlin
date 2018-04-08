@@ -29,7 +29,7 @@ class MainActivity : AppCompatActivity() {
 
     override fun onRetainCustomNonConfigurationInstance(): Any {
         val data = txtArea.text.toString();
-        return data;
+        return data
     }
 
     fun btnC(view: View) {
